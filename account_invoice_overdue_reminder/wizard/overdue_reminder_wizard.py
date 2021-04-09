@@ -562,7 +562,7 @@ class OverdueReminderStep(models.TransientModel):
             attachment_ids = []
             for inv in self.invoice_ids:
                 if inv_report.report_type in ("qweb-html", "qweb-pdf"):
-                    report_bin, report_format = inv_report._render_qweb_pdf([inv.id])
+                    report_bin, report_format = inv_report.render_qweb_pdf([inv.id])
                 else:
                     res = inv_report.render([inv.id])
                     if not res:
