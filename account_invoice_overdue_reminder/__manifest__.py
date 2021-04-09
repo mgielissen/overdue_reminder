@@ -1,5 +1,6 @@
 # Copyright 2020-2021 Akretion France (http://www.akretion.com/)
 # @author: Alexis de Lattre <alexis.delattre@akretion.com>
+# Backport from v14 to v13: Mario Gielissen <mario@openworx.nl>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
